@@ -354,7 +354,7 @@ button {
 }
 
 .team-social-list-link:hover,
-.team-social-list-linkfocus {
+.team-social-list-link:focus {
   background-color: var(--ocean);
 }
 
