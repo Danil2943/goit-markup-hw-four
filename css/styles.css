@@ -413,6 +413,9 @@ button {
 .portfolio-list-link {
   border: 1px solid var(--cornflower);
   width: calc((100%-48px) / 3);
+}
+
+.portfolio-list-items {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -453,6 +456,9 @@ button {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
+  border-left: 1px solid var(--cornflower);
+  border-bottom: 1px solid var(--cornflower);
+  border-right: 1px solid var(--cornflower);
 }
 
 .portfolio-description {
@@ -466,9 +472,6 @@ button {
   display: flex;
   align-content: center;
   margin-bottom: 8px;
-  border-left: 1px solid var(--cornflower);
-  border-bottom: 1px solid var(--cornflower);
-  border-right: 1px solid var(--cornflower);
 }
 
 .portfolio-text {
